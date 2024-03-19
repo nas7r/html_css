@@ -15,18 +15,53 @@
                 padding-left: 16px;
                 padding-right: 16px;
             }
+
             .header__logo {
                 color: #fff;
                 background-color: red;
             }
+
             .header__login {
                 color: #fff;
                 background-color: green;
             }
+
+            .footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                background-color: pink;
+            }
+
+            .footer__list {
+                display: flex;
+                height: 60px;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .footer__list li {
+                margin-right: 40px;
+            }
+
+            .footer__list li:last-child{
+                margin-right: 0;
+            }
+            
         </style>
        <div class="header">
          <div class="header__logo">Youtube</div>
          <div class="header__login">LOGIN</div>
+       </div>
+       <div class="footer">
+        <ul class="footer__list">
+            <li>会社名</li>
+            <li>利用規約</li>
+            <li>サイトマップ</li>
+            <li>会社情報</li>
+            <li>お問い合わせ</li>
+            <li>ビジネス</li>
+        </ul>
        </div>
     </body>
 </html>
